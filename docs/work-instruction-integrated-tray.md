@@ -335,7 +335,7 @@
 
 4. 接地线终止端与NEXUS中的接地铜排相连按图3所示，扭矩10N.m；
 
-   <img src="./images/CN/9/3.png" alt="图9-3" />
+   <!-- <img src="./images/CN/9/3.png" alt="图9-3" /> -->
 
 5. 详情见图纸ESTZ-0026、ESTZ-0035。
 
@@ -379,7 +379,7 @@
 
 5. 外部走线方式如图4所示；
 
-   <img src="./images/CN/10/4.png" alt="图10-4" />
+   <!-- <img src="./images/CN/10/4.png" alt="图10-4" /> -->
 
 6. 详情见图纸ESTZ-0037。
 

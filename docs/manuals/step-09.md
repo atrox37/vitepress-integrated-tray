@@ -40,7 +40,7 @@ title: 09 Wiring - Battery Grounding Cables
 
 4. Connect grounding cable end to the grounding busbar in NEXUS, torque 10N.m, as shown in Figure 3.
 
-   <img src="../images/EN/9/3.png" alt="Fig 9-3" />
+   <!-- <img src="../images/EN/9/3.png" alt="Fig 9-3" /> -->
 
 5. See drawings ESTZ-0026 and ESTZ-0035.
 

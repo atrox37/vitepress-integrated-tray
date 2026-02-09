@@ -31,7 +31,7 @@ title: 10 Wiring - Inverter Comm Cables
 
 4. Connect emergency stop cable end as shown in Figure 3.
 
-   <img src="../images/EN/10/3.png" alt="Fig 10-3" />
+   <!-- <img src="../images/EN/10/3.png" alt="Fig 10-3" /> -->
 
 5. Route external cables as shown in Figure 4.
 

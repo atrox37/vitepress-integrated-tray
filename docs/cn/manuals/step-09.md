@@ -40,7 +40,7 @@ title: 09 布线-电池接地线
 
 4. 接地线终止端与NEXUS中的接地铜排相连按图3所示，扭矩10N.m；
 
-   <img src="../../images/CN/9/3.png" alt="图9-3" />
+   <!-- <img src="../../images/CN/9/3.png" alt="图9-3" /> -->
 
 5. 详情见图纸ESTZ-0026、ESTZ-0035。
 
