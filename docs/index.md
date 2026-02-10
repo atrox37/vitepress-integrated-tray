@@ -9,9 +9,6 @@ hero:
     - theme: brand
       text: Installation Steps
       link: /manuals/step-01
-    - theme: alt
-      text: 中文版
-      link: /cn/manuals/step-01
 
 features:
   - title: Step-by-Step Guide
