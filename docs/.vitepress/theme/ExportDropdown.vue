@@ -4,9 +4,9 @@ import { useData, withBase } from "vitepress";
 
 /**
  * 顶部导航栏右侧「下载 PDF」按钮：
- * - 按语言下载“普通用户手册（normal-user）”生成的 PDF
- *
- * 旧策略（整站导出 monarch-edge-manual.pdf）暂时保留注释，便于回滚/对照。
+ * - 按语言下载对应的"作业指导书-一体化托盘.pdf"文件
+ * - 英文：/downloads/en/作业指导书-一体化托盘.pdf
+ * - 中文：/downloads/zh-cn/作业指导书-一体化托盘.pdf
  */
 
 const { lang } = useData();
@@ -30,11 +30,13 @@ function toHref(path: string) {
 }
 
 const pdfHref = computed(() =>
-  isEnglish.value ? toHref("/downloads/en/user-manual.pdf") : toHref("/downloads/zh-cn/user-manual.pdf")
+  isEnglish.value 
+    ? toHref("/downloads/en/作业指导书-一体化托盘.pdf") 
+    : toHref("/downloads/zh-cn/作业指导书-一体化托盘.pdf")
 );
 
 const pdfDownloadName = computed(() =>
-  isEnglish.value ? "User Manual.pdf" : "普通用户手册.pdf"
+  isEnglish.value ? "作业指导书-一体化托盘.pdf" : "作业指导书-一体化托盘.pdf"
 );
 
 // 旧策略（暂时注释）：下载整站导出 PDF
