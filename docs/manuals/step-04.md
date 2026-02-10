@@ -5,6 +5,7 @@ title: 04 Install Inverters
 # 4. Install Inverters
 
 **Process Name**: Inverter installation
+
 **Tools / PPE**: Electric wrench (10mm socket), high-torque wrench, marker
 
 **Parts List**

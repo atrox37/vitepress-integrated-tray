@@ -5,6 +5,7 @@ title: 06 Open Cable Trunking
 # 6. Open Cable Trunking
 
 **Process Name**: Cable trunking opening
+
 **Tools / PPE**: Long cloth strips, Φ35 or larger hole saw, hand drill
 
 **Parts List**
