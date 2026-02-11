@@ -34,5 +34,5 @@ title: 03 Install Batteries
 
 **Notes**
 
-> 1. The tray has 16 battery positions; only 14 batteries are required.
+> 1. The skid has 16 battery positions; only 14 batteries are required.
 > 2. All screws must be fully tightened with no omissions or insufficient torque.

@@ -16,7 +16,7 @@ title: 15 Install Side Canopies
 
 **Steps**
 
-1. Side canopies on the tray, as shown in Figure 1.
+1. Side canopies on the skid, as shown in Figure 1.
 
    <img src="../images/EN/15/1.png" alt="Fig 15-1" />
 

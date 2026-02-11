@@ -1,4 +1,4 @@
-# integrated-tray-docs
+# integrated-skid-docs
 
 ## 项目简介
 这是“一体化托盘安装手册”及相关图片素材的文档仓库，主要用于维护装配/拆解流程说明与配套示意图。
@@ -8,7 +8,7 @@
 - `docs/cn/index.md`：中文首页
 - `docs/cn/manuals/step-*.md`：15个安装步骤模块
 - `docs/manuals/step-*.md`：English installation steps (15 pages)
-- `docs/work-instruction-integrated-tray.md`：原始作业指导书正文（拆分来源）
+- `docs/work-instruction-integrated-skid.md`：原始作业指导书正文（拆分来源）
 - `docs/images/CN/`：中文图片资源，按工序编号分目录
 - `docs/images/EN/`：英文图片资源，按工序编号分目录
 - `docs/.vitepress/config.mts`：VitePress 路由与导航配置

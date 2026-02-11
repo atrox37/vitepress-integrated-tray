@@ -6,6 +6,8 @@ title: 14 Install Steel Roof Canopy
 
 **Process Name**: Steel roof canopy installation
 
+**Equipment**: Forklift
+
 **Tools / PPE**: Electric wrench + 19mm socket, high-torque wrench, marker
 
 **Parts List**
