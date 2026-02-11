@@ -4,8 +4,8 @@ import { useData, withBase } from "vitepress";
 
 /**
  * 顶部导航栏右侧「下载 PDF」按钮：
- * - 按语言下载对应的"作业指导书-一体化托盘.pdf"文件
- * - 英文：/downloads/en/作业指导书-一体化托盘.pdf
+ * - 按语言下载对应的 PDF 文件
+ * - 英文：/downloads/en/Work Instruction – Integrated Skid.pdf
  * - 中文：/downloads/zh-cn/作业指导书-一体化托盘.pdf
  */
 
@@ -31,12 +31,12 @@ function toHref(path: string) {
 
 const pdfHref = computed(() =>
   isEnglish.value 
-    ? toHref("/downloads/en/作业指导书-一体化托盘.pdf") 
+    ? toHref("/downloads/en/Work Instruction – Integrated Skid.pdf") 
     : toHref("/downloads/zh-cn/作业指导书-一体化托盘.pdf")
 );
 
 const pdfDownloadName = computed(() =>
-  isEnglish.value ? "作业指导书-一体化托盘.pdf" : "作业指导书-一体化托盘.pdf"
+  isEnglish.value ? "Work Instruction – Integrated Skid.pdf" : "作业指导书-一体化托盘.pdf"
 );
 
 // 旧策略（暂时注释）：下载整站导出 PDF
