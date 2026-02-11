@@ -2,9 +2,9 @@
 layout: home
 
 hero:
-  name: "Integrated Tray"
+  name: "Integrated Skid"
   text: "Installation Manual"
-  tagline: Installation and wiring work instruction for integrated tray
+  tagline: Installation and wiring work instruction for integrated skid
   actions:
     - theme: brand
       text: Installation Steps

@@ -1,13 +1,13 @@
 ---
-title: Integrated Tray Installation Manual
+title: Integrated Skid Installation Manual
 ---
 
-# Integrated Tray Installation Manual
+# Integrated Skid Installation Manual
 
-This manual guides the disassembly, installation, and wiring of the integrated tray. Follow the steps in order and pay attention to safety notes.
+This manual guides the disassembly, installation, and wiring of the integrated skid. Follow the steps in order and pay attention to safety notes.
 
 ## Scope
-- On-site assembly and disassembly of the integrated tray
+- On-site assembly and disassembly of the integrated skid
 - Installation and routing for inverters, batteries, trunking, and cables
 
 ## Safety Notes

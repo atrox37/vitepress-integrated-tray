@@ -39,8 +39,8 @@ const installStepsEn = [
 export default defineConfig({
   base: "/",
   cleanUrls: false,
-  title: "Integrated Tray Installation Manual",
-  description: "Installation and wiring work instruction for integrated tray",
+  title: "Integrated Skid Installation Manual",
+  description: "Installation and wiring work instruction for integrated skid",
   locales: {
     root: {
       label: "English",
@@ -66,7 +66,7 @@ export default defineConfig({
     },
   },
   themeConfig: {
-    siteTitle: "Integrated Tray Manual",
+    siteTitle: "Integrated Skid Manual",
     search: {
       provider: "local",
     },
