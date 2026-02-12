@@ -41,6 +41,32 @@ export default defineConfig({
   cleanUrls: false,
   title: "Integrated Skid Installation Manual",
   description: "Installation and wiring work instruction for integrated skid",
+  head: [
+    ["link", { rel: "icon", href: "/logo.png" }],
+    [
+      "link",
+      {
+        rel: "preconnect",
+        href: "https://fonts.googleapis.com",
+      },
+    ],
+    [
+      "link",
+      {
+        rel: "preconnect",
+        href: "https://fonts.gstatic.com",
+        crossorigin: "",
+      },
+    ],
+    [
+      "link",
+      {
+        rel: "stylesheet",
+        href:
+          "https://fonts.googleapis.com/css2?family=Arimo:wght@400;500;600;700&family=Montserrat:wght@500;600;700;800;900&display=swap",
+      },
+    ],
+  ],
   locales: {
     root: {
       label: "English",
@@ -53,7 +79,7 @@ export default defineConfig({
       link: "/cn/",
       themeConfig: {
         siteTitle: "一体化托盘安装手册",
-        nav: [{ text: "安装步骤", link: "/cn/manuals/step-01" }],
+        nav: [{ text: "安装步骤", link: "/cn/manuals/step-01", activeMatch: "^/cn/manuals/" }],
         sidebar: {
           "/cn/manuals/": [
             {
@@ -66,11 +92,57 @@ export default defineConfig({
     },
   },
   themeConfig: {
-    siteTitle: "Integrated Skid Manual",
+    logo: "/logo.png",
+    outline: {
+      level: [2, 6], // Display h2 to h6 headings
+      label: "Page Outline",
+    },
     search: {
       provider: "local",
+      options: {
+        locales: {
+          root: {
+            translations: {
+              button: {
+                buttonText: "Search",
+                buttonAriaLabel: "Search",
+              },
+              modal: {
+                noResultsText: "No results for",
+                resetButtonTitle: "Reset",
+                footer: {
+                  selectText: "to select",
+                  navigateText: "to navigate",
+                  closeText: "to close",
+                },
+              },
+            },
+          },
+          cn: {
+            translations: {
+              button: {
+                buttonText: "搜索",
+                buttonAriaLabel: "搜索",
+              },
+              modal: {
+                noResultsText: "未找到结果",
+                resetButtonTitle: "重置",
+                footer: {
+                  selectText: "选择",
+                  navigateText: "导航",
+                  closeText: "关闭",
+                },
+              },
+            },
+          },
+        },
+      },
     },
-    nav: [{ text: "Installation Steps", link: "/manuals/step-01" }],
+    siteTitle: "Integrated Skid Manual",
+    // search: {
+    //   provider: "local",
+    // },
+    nav: [{ text: "Installation Steps", link: "/manuals/step-01", activeMatch: "^/manuals/" }],
     sidebar: {
       "/manuals/": [
         {
